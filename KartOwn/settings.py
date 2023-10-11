@@ -36,7 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'products',
+    'KartOwn.Shop',
+    'KartOwn.home',
+    'KartOwn.Blog',
+    'KartOwn.Contact',
+    'KartOwn.About_us',
+    'KartOwn.Services',
     'django.contrib.staticfiles',
 ]
 

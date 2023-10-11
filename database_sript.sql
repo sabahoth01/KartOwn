@@ -7,7 +7,7 @@ CREATE TABLE USERS (
    phone        VARCHAR(50) NOT NULL
                    );
 
--- 2. Products: Stores information about the available products.
+-- 2. Products: Stores information about the available Shop.
 CREATE TABLE PRODUCTS (
    product_id       INTEGER SERIAL DEFAULT VALUE PRIMARY KEY,
    name             VARCHAR(50) NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE PRODUCTS (
                    );
 
 
--- 3. Categories: Stores information about the categories of products.
+-- 3. Categories: Stores information about the categories of Shop.
    CREATE TABLE CATEGORIES (
    category_id      INTEGER SERIAL DEFAULT VALUE PRIMARY KEY,
    name             VARCHAR(50) NOT NULL
